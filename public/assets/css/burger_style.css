@@ -1,3 +1,48 @@
 body {
-    font-size: 4em;
+    font-size: 1em;
+    text-align: center;
+    background-color: #443742;
+    color: #EDD9A3;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #846C5B;
+    border-radius: 15px;
+    border: 20px solid #CEA07E;
+}
+
+.eat, .noteat {
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.burger-image {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.noteat ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.noteat ul li {
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+}
+
+.add {
+    margin-top: 30px;
 }
