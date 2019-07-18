@@ -1,20 +1,21 @@
 body {
     font-size: 1em;
     text-align: center;
-    background-color: #443742;
-    color: #EDD9A3;
+    color: #3F88C5;
+    background-color: #393E41;
 }
 
 h2 {
     margin-top: 10px;
     font-size: 1.2em;
+    color: #44BBA4;
 }
 
 .container {
     margin-top: 20px;
-    background-color: #846C5B;
+    background-color: #F6F7EB;
     border-radius: 15px;
-    border: 20px solid #CEA07E;
+    border: 9px solid #E94F37;
 }
 
 .eat, .noteat {
