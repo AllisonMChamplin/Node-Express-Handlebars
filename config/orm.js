@@ -53,6 +53,9 @@ var orm = {
     },
 
     insertOne: function (table, cols, vals, cb) {
+        console.log("cols: ", cols);
+        console.log("vals: ", vals);
+
         var queryString = "INSERT INTO " + table;
         queryString += " (";
         queryString += cols.toString();
