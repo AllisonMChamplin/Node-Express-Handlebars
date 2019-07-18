@@ -1,7 +1,7 @@
 body {
     font-size: 1em;
     text-align: center;
-    color: #3F88C5;
+    color: #E94F37;
     background-color: #393E41;
 }
 
@@ -41,7 +41,7 @@ h2 {
 .noteat ul li, .eat ul li {
     margin: 5px 0;
     border-radius: 20px;
-    background: #44BBA4;
+    background: #28907c;
     padding: 5px 0;
     color: #fff;
 }
@@ -55,13 +55,14 @@ h2 {
     font-size: 1.2em;
 }
 
-.change-eat {
+.change-eat, .delete-burger {
     margin: 5px 0;
     border: 1px solid white;
     border-radius: 5px;
     color: #fff;
+    background: #44BBA4;
 }
 
-.change-eat:hover {
+.change-eat:hover, .delete-burger:hover {
     background: #fff;
 }
